@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         // true to get unimplemented snippets
         // false to run the methods
-        dryRun = true,
+        dryRun = false,
 
         // Work in progress scenario
         tags = "@wip"

@@ -10,11 +10,13 @@ public class Calculator_StepDefinitions {
     Integer actualResult;
     @Given("Calculator app is opened")
     public void calculator_app_is_opened() {
+
         System.out.println("Calulator is opened");
     }
 
     @When("User add {int} with {int}")
     public void user_add_with(Integer int1, Integer int2) {
+
         actualResult=int1+int2;
     }
 
